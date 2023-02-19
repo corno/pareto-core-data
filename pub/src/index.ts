@@ -1,4 +1,7 @@
-export { getLocationInfo } from "./functions/getLocationInfo"
+export {
+    getLocationInfo,
+    SourceLocation
+} from "./functions/getLocationInfo"
 
 export {
     wrapRawArray,
