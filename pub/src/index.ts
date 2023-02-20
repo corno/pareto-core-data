@@ -4,6 +4,6 @@ export {
 } from "./functions/getLocationInfo"
 
 export {
-    wrapRawArray,
-    wrapRawDictionary,
+    wrapRawArray as a,
+    wrapRawDictionary as d,
 } from "pareto-core-internals"
