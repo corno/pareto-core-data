@@ -8,8 +8,11 @@ export type SourceLocation = {
 }
 
 export function getLocationInfo(depth: number): SourceLocation {
+
+    const e = new Error(); //don't move this statement to another function, it will change the depth of its stack
+
+
     function getLine(): string {
-        const e = new Error();
         const regex = /\((.*)\)$/
         //const regex = /\((.*):(\d+):(\d+)\)$/ //further splitted; file,line,column,
         if (e.stack === undefined) {
