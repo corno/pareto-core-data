@@ -33,9 +33,10 @@ export function getLocationInfo(depth: number): SourceLocation {
         })())
 
     }
-    const split = getLine().split(":")
+    const line = getLine()
+    const split = line.split(":")
     if (split.length !== 3) {
-        throw new Error(`UNEXPECTED LOCATION FORMAT: ${split}`)
+        throw new Error(`UNEXPECTED LOCATION FORMAT (CHECK THE DEPTH PARAMETER): ${line} (Expected 'file:line:column')`)
     }
     return {
         'file': split[0],
