@@ -1,7 +1,7 @@
 export {
     getLocationInfo,
-    SourceLocation
-} from "./functions/getLocationInfo"
+    SourceLocation,
+} from "pareto-core-internals"
 
 export {
     wrapRawArray as a,
