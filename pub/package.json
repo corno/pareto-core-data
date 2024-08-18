@@ -1,28 +1,31 @@
 {
+  "name": "pareto-core-data",
+  "version": "0.6.0",
+  "license": "ISC",
+  "description": "the Pareto package used for building datasets",
   "author": "Corno",
-  "bin": {},
-  "files": [
-    "dist"
-  ],
-  "keywords": [],
-  "main": "./dist/index.js",
+  
+  "keywords": [ "pareto", "dataset", "data" ],
+  "homepage": "https://github.com/corno/pareto-core-data#readme",
   "bugs": {
     "url": "https://github.com/corno/pareto-core-data/issues"
   },
-  "description": "",
-  "homepage": "https://github.com/corno/pareto-core-data#readme",
-  "license": "ISC",
-  "name": "pareto-core-data",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/corno/pareto-core-data.git"
-  },
+
+  "main": "./dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "0.6.0",
+  "files": [
+    "dist"
+  ],
+
   "dependencies": {
-    "pareto-core-internals": "^0.17.0"
+    "pareto-core-internals": "^0.21.0"
   },
   "devDependencies": {
     "@types/node": "^18.14.0"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corno/pareto-core-data.git"
   }
 }
