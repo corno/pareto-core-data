@@ -19,7 +19,7 @@
     "dist"
   ],
   "dependencies": {
-    "pareto-core-internals": "^0.21.0"
+    "pareto-core-internals": "^0.22.2"
   },
   "devDependencies": {
     "@types/node": "^18.14.0"
