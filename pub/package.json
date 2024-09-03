@@ -1,6 +1,6 @@
 {
   "name": "pareto-core-data",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "license": "ISC",
   "description": "the Pareto package used for building datasets",
   "author": "Corno",
